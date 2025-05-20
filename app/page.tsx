@@ -101,3 +101,22 @@ export default function Home() {
     </div>
   );
 }
+
+
+// app/page.tsx
+import Link from 'next/link';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen px-8 py-12">
+      <h1 className="text-4xl font-bold mb-4">Welcome to Botshyka</h1>
+      <p className="text-lg text-gray-600 mb-6">Your smart chatbot assistant platform.</p>
+
+      <Link href="/about">
+        <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          Learn More About Us
+        </button>
+      </Link>
+    </div>
+  );
+}
