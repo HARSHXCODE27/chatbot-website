@@ -53,3 +53,11 @@ export default function RootLayout({
     </html>
   );
 }
+
+<div className="space-x-6 text-gray-400 text-lg">
+  <Link href="/"><a className="hover:text-[#00FFB2]">Home</a></Link>
+  <Link href="/why-chatbots"><a className="hover:text-[#00FFB2]">Why Chatbots</a></Link>
+  <Link href="/bots"><a className="hover:text-[#00FFB2]">Bots</a></Link>
+  <Link href="/about"><a className="hover:text-[#00FFB2]">About</a></Link> {/* ✅ NEW LINK */}
+  <Link href="/contact"><a className="hover:text-[#00FFB2]">Contact</a></Link>
+</div>
