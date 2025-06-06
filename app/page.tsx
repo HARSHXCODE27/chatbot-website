@@ -4,18 +4,32 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="min-h-screen px-8 py-12 flex flex-col items-center justify-center gap-12">
-      <main className="text-center max-w-2xl">
+    <div className="min-h-screen bg-black text-white flex flex-col items-center px-4 py-8 gap-10">
+      
+      {/* Header */}
+      <header className="w-full flex flex-col items-center gap-4">
+        <h1 className="text-3xl font-bold">Botshyka</h1>
+        <nav className="flex flex-wrap gap-x-6 text-base font-medium">
+          <Link href="/">Home</Link>
+          <Link href="/why-chatbots">Why Chatbots</Link>
+          <Link href="/bots">Bots</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+        </nav>
+      </header>
+
+      {/* Main Content */}
+      <main className="flex flex-col items-center gap-6 text-center">
         <Image
-          className="mx-auto dark:invert"
+          className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
           priority
         />
-        <h1 className="text-4xl font-bold mt-6 mb-4">Welcome to Botshyka</h1>
-        <p className="text-lg text-gray-500 mb-6">
+        <h2 className="text-4xl font-bold">Welcome to Botshyka</h2>
+        <p className="text-lg text-gray-400 max-w-md">
           Your smart chatbot showcase platform.
         </p>
         <Link
@@ -26,31 +40,35 @@ export default function Home() {
         </Link>
       </main>
 
-      <footer className="flex gap-6 flex-wrap justify-center text-sm text-gray-600">
-        <a
-          href="https://nextjs.org/learn"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          Go to nextjs.org →
-        </a>
+      {/* Footer */}
+      <footer className="mt-10 flex flex-col items-center gap-4 text-sm text-gray-400">
+        <div className="flex gap-6 flex-wrap justify-center">
+          <a
+            href="https://nextjs.org/learn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Learn
+          </a>
+          <a
+            href="https://vercel.com/templates?framework=next.js"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Examples
+          </a>
+          <a
+            href="https://nextjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Go to nextjs.org →
+          </a>
+        </div>
+        <p>© 2025 Botshyka. All rights reserved.</p>
       </footer>
     </div>
   );
