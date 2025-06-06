@@ -1,16 +1,4 @@
-// export const metadata = {
-//   title: 'About Us - Botshyka',
-//   description: 'Learn about the Botshyka chatbot platform.',
-// };
-
-// export default function AboutPage() {
-//   return (
-//     <div className="min-h-screen px-8 py-12">
-//       <h1 className="text-4xl font-bold mb-4">About Botshyka</h1>
-//       <p>Welcome to our intelligent chatbot experience.</p>
-//     </div>
-//   );
-// }
+import Link from 'next/link'; // Import Link
 
 export default function About() {
   return (
@@ -22,12 +10,12 @@ export default function About() {
       <p className="text-lg mb-4">
         Founded in 2025, our mission is to make chatbot technology accessible and useful for everyone.
       </p>
-      <a
+      <Link
         href="/"
         className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
       >
         Back to Home
-      </a>
+      </Link>
     </div>
   );
 }
