@@ -58,7 +58,8 @@
 
 
 import { ReactNode } from 'react';
-import './globals.css'; // Ensure global styles are imported (we'll create this next)
+import Header from '../components/Header'; // Import the new Header component
+import './globals.css';
 
 export const metadata = {
   title: 'Botshykya - Your Smart Chatbot Showcase Platform',
@@ -69,36 +70,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-gray-900 text-white min-h-screen flex flex-col">
-        {/* Header with Logo and Navigation */}
-        <header className="bg-gray-800 p-4 flex justify-between items-center">
-          <div className="flex items-center">
-            {/* Logo (assuming it's in the public folder as logo.png) */}
-            <img src="/logo.png" alt="Botshykya Logo" className="h-12 mr-4" />
-            <h1 className="text-2xl font-bold">Botshykya</h1>
-          </div>
-          <nav>
-            <ul className="flex space-x-4">
-              <li>
-                <a href="/" className="hover:text-blue-400">Home</a>
-              </li>
-              <li>
-                <a href="/about" className="hover:text-blue-400">About</a>
-              </li>
-              <li>
-                <a href="/contact" className="hover:text-blue-400">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-
-        {/* Main Content */}
+        <Header />
         <main className="flex-1 flex items-center justify-center p-4">
           {children}
         </main>
-
-        {/* Footer */}
         <footer className="bg-gray-800 p-4 text-center">
-          <p>&copy; 2025 Botshykya. All rights reserved.</p>
+          <p>© 2025 Botshykya. All rights reserved.</p>
         </footer>
       </body>
     </html>
