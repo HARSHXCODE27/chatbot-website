@@ -30,14 +30,15 @@ export default function RootLayout({
       >
         <header className="bg-[#121212] p-4 shadow-md">
           <nav className="max-w-6xl mx-auto flex justify-between items-center">
-            <Link href="/">
-              <a className="font-bold text-2xl text-[#00FFB2] hover:text-[#00cc8f]">Botshyka</a>
+            <Link href="/" className="font-bold text-2xl text-[#00FFB2] hover:text-[#00cc8f]">
+              Botshyka
             </Link>
             <div className="space-x-6 text-gray-400 text-lg">
-              <Link href="/"><a className="hover:text-[#00FFB2]">Home</a></Link>
-              <Link href="/why-chatbots"><a className="hover:text-[#00FFB2]">Why Chatbots</a></Link>
-              <Link href="/bots"><a className="hover:text-[#00FFB2]">Bots</a></Link>
-              <Link href="/contact"><a className="hover:text-[#00FFB2]">Contact</a></Link>
+              <Link href="/" className="hover:text-[#00FFB2]">Home</Link>
+              <Link href="/why-chatbots" className="hover:text-[#00FFB2]">Why Chatbots</Link>
+              <Link href="/bots" className="hover:text-[#00FFB2]">Bots</Link>
+              <Link href="/about" className="hover:text-[#00FFB2]">About</Link>
+              <Link href="/contact" className="hover:text-[#00FFB2]">Contact</Link>
             </div>
           </nav>
         </header>
@@ -53,11 +54,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-<div className="space-x-6 text-gray-400 text-lg">
-  <Link href="/"><a className="hover:text-[#00FFB2]">Home</a></Link>
-  <Link href="/why-chatbots"><a className="hover:text-[#00FFB2]">Why Chatbots</a></Link>
-  <Link href="/bots"><a className="hover:text-[#00FFB2]">Bots</a></Link>
-  <Link href="/about"><a className="hover:text-[#00FFB2]">About</a></Link> {/* ✅ NEW LINK */}
-  <Link href="/contact"><a className="hover:text-[#00FFB2]">Contact</a></Link>
-</div>
