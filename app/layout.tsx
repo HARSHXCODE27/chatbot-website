@@ -35,6 +35,12 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="bg-black text-white min-h-screen flex flex-col">
         <Header />
         <main className="flex-1 flex items-center justify-center p-4">
