@@ -4,10 +4,10 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <header className="bg-black text-white px-6 py-4 flex items-center justify-between">
-      {/* Left: Botshyka Text and Logo */}
-      <div className="flex items-center">
+      {/* Left: Botshyka Text and Logo (Clickable) */}
+      <Link href="/" className="flex items-center gap-0 hover:opacity-80 transition">
         <h1
-          className="text-4xl font-bold mr-4"
+          className="text-4xl font-bold"
           style={{ fontFamily: "'Playfair Display', serif" }}
         >
           Botshyka
@@ -15,10 +15,11 @@ export default function Header() {
         <Image
           src="/logo.png"
           alt="Botshyka Logo"
-          width={68}
-          height={68}
+          width={88}
+          height={88}
         />
-      </div>
+      </Link>
+
       {/* Right: Navigation Links */}
       <nav className="flex space-x-6 text-sm">
         <Link href="/" className="hover:text-blue-400">Home</Link>
