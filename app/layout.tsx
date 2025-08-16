@@ -1,35 +1,10 @@
-// import { ReactNode } from 'react';
-// import Header from '../components/Header'; // Import the new Header component
-// import './globals.css';
-
-// export const metadata = {
-//   title: 'Botshykya - Your Smart Chatbot Showcase Platform',
-//   description: 'A platform to showcase smart chatbots with Botshykya.',
-// };
-
-// export default function RootLayout({ children }: { children: ReactNode }) {
-//   return (
-//     <html lang="en">
-//       <body className="bg-gray-900 text-white min-h-screen flex flex-col">
-//         <Header />
-//         <main className="flex-1 flex items-center justify-center p-4">
-//           {children}
-//         </main>
-//         <footer className="bg-gray-800 p-4 text-center">
-//           <p>© 2025 Botshykya. All rights reserved.</p>
-//         </footer>
-//       </body>
-//     </html>
-//   );
-// }
-
 import { ReactNode } from 'react';
 import Header from '../components/Header';
 import './globals.css';
 
 export const metadata = {
-  title: 'Botshykya - Your Smart Chatbot Showcase Platform',
-  description: 'A platform to showcase smart chatbots with Botshykya.',
+  title: 'Botshyka - A Smart Chatbot Showcase Platform',
+  description: 'A platform to showcase smart chatbots with Botshyka.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -47,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </main>
         <footer className="bg-black p-4 text-center">
-          <p>© 2025 Botshykya. All rights reserved.</p>
+          <p>© 2025 Botshyka. All rights reserved.</p>
         </footer>
       </body>
     </html>
