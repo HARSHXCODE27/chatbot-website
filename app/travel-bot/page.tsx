@@ -9,7 +9,7 @@ export default function TravelBot() {
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto">
         <iframe
-          src="https://google.com"
+          src="https://bot.dialogflow.com/e9c4e90e-c5c8-4263-8588-9ee76b992cd2s"
           className="w-full h-full border-none"
         />
       </div>
