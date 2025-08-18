@@ -9,7 +9,8 @@ export default function RestaurantBot() {
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto">
         <iframe
-          src="YOUR_DIALOGFLOW_TRAVEL_BOT_EMBED_URL"
+          src="https://console.dialogflow.com/api-client/demo/embedded/18915528-1f66-4167-8b4b-421128f1093e"
+          allow="microphone;"
           className="w-full h-full border-none"
         />
       </div>
