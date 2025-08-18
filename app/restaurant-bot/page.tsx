@@ -1,17 +1,19 @@
-export default function RestaurantBot() {
+export default function TravelBot() {
   return (
     <div className="w-full h-screen bg-black text-white flex flex-col">
       {/* Chat header */}
       <div className="bg-gray-900 p-4 text-lg font-bold border-b border-gray-700">
-        Restaurant Bot
+        Travel Bot
       </div>
 
       {/* Chat area */}
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 flex justify-center items-center bg-white">
         <iframe
-          src="https://console.dialogflow.com/api-client/demo/embedded/18915528-1f66-4167-8b4b-421128f1093e"
+          src="https://bot.dialogflow.com/18915528-1f66-4167-8b4b-421128f1093e"
           allow="microphone;"
-          className="w-full h-full border-none"
+          height="600"
+          width="400"
+          style={{ border: "none" }}
         />
       </div>
     </div>
