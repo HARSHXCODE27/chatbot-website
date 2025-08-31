@@ -7,12 +7,13 @@ export default function TravelBot() {
       </div>
 
       {/* Chat area */}
-      <div className="flex-1 overflow-hidden">
+      <div className="flex-1 flex justify-center items-center bg-white">
         <iframe
-          src="https://console.dialogflow.com/api-client/demo/embedded/18915528-1f66-4167-8b4b-421128f1093e"
+          src="https://console.dialogflow.com/api-client/demo/embedded/d7e879fc-691d-4c62-9d83-993b94e21f9b"
           allow="microphone;"
-          className="w-full h-full border-none"
-          style={{ minHeight: "600px" }}
+          width="100%"
+          height="100%"
+          style={{ border: "none", minHeight: "600px" }}
         />
       </div>
     </div>
