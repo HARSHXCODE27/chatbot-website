@@ -1,20 +1,19 @@
 // global.d.ts
 import React from "react";
 
-declare global {
+declare module "react" {
   namespace JSX {
     interface IntrinsicElements {
       "df-messenger": React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement>,
         HTMLElement
       > & {
-        intent?: string;
-        "chat-title"?: string;
         "agent-id"?: string;
+        "chat-title"?: string;
         "language-code"?: string;
-        minimized?: string;
+        "intent"?: string;
+        "minimized"?: string;
       };
-
       "df-messenger-toggle": React.DetailedHTMLProps<
         React.HTMLAttributes<HTMLElement>,
         HTMLElement

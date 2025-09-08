@@ -99,6 +99,7 @@ export default function TravelBot() {
     document.head.appendChild(style);
   }, []);
 
+
   return (
     <div className="w-full h-screen bg-black text-white flex flex-col">
       <df-messenger
