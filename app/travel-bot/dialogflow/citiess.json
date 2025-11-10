@@ -1,0 +1,1112 @@
+{
+  "id": "city-entity",
+  "name": "city",
+  "isOverridable": true,
+  "isEnum": false,
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "Paris",
+      "synonyms": [
+        "Paris"
+      ]
+    },
+    {
+      "value": "London",
+      "synonyms": [
+        "London"
+      ]
+    },
+    {
+      "value": "New York",
+      "synonyms": [
+        "New York",
+        "NYC"
+      ]
+    },
+    {
+      "value": "Tokyo",
+      "synonyms": [
+        "Tokyo"
+      ]
+    },
+    {
+      "value": "Bangkok",
+      "synonyms": [
+        "Bangkok"
+      ]
+    },
+    {
+      "value": "Singapore",
+      "synonyms": [
+        "Singapore"
+      ]
+    },
+    {
+      "value": "Dubai",
+      "synonyms": [
+        "Dubai"
+      ]
+    },
+    {
+      "value": "Bali",
+      "synonyms": [
+        "Bali"
+      ]
+    },
+    {
+      "value": "Sydney",
+      "synonyms": [
+        "Sydney"
+      ]
+    },
+    {
+      "value": "Rome",
+      "synonyms": [
+        "Rome"
+      ]
+    },
+    {
+      "value": "Barcelona",
+      "synonyms": [
+        "Barcelona"
+      ]
+    },
+    {
+      "value": "Amsterdam",
+      "synonyms": [
+        "Amsterdam"
+      ]
+    },
+    {
+      "value": "Venice",
+      "synonyms": [
+        "Venice"
+      ]
+    },
+    {
+      "value": "Istanbul",
+      "synonyms": [
+        "Istanbul"
+      ]
+    },
+    {
+      "value": "Kuala Lumpur",
+      "synonyms": [
+        "Kuala Lumpur",
+        "KL"
+      ]
+    },
+    {
+      "value": "Hong Kong",
+      "synonyms": [
+        "Hong Kong"
+      ]
+    },
+    {
+      "value": "Seoul",
+      "synonyms": [
+        "Seoul"
+      ]
+    },
+    {
+      "value": "Los Angeles",
+      "synonyms": [
+        "Los Angeles",
+        "LA"
+      ]
+    },
+    {
+      "value": "San Francisco",
+      "synonyms": [
+        "San Francisco",
+        "SF"
+      ]
+    },
+    {
+      "value": "Las Vegas",
+      "synonyms": [
+        "Las Vegas",
+        "Vegas"
+      ]
+    },
+    {
+      "value": "Delhi",
+      "synonyms": [
+        "Delhi",
+        "New Delhi"
+      ]
+    },
+    {
+      "value": "Mumbai",
+      "synonyms": [
+        "Mumbai",
+        "Bombay"
+      ]
+    },
+    {
+      "value": "Goa",
+      "synonyms": [
+        "Goa"
+      ]
+    },
+    {
+      "value": "Jaipur",
+      "synonyms": [
+        "Jaipur",
+        "Pink City"
+      ]
+    },
+    {
+      "value": "Agra",
+      "synonyms": [
+        "Agra"
+      ]
+    },
+    {
+      "value": "Kathmandu",
+      "synonyms": [
+        "Kathmandu"
+      ]
+    },
+    {
+      "value": "Colombo",
+      "synonyms": [
+        "Colombo"
+      ]
+    },
+    {
+      "value": "Male",
+      "synonyms": [
+        "Male"
+      ]
+    },
+    {
+      "value": "Phuket",
+      "synonyms": [
+        "Phuket"
+      ]
+    },
+    {
+      "value": "Chiang Mai",
+      "synonyms": [
+        "Chiang Mai"
+      ]
+    },
+    {
+      "value": "Doha",
+      "synonyms": [
+        "Doha"
+      ]
+    },
+    {
+      "value": "Abu Dhabi",
+      "synonyms": [
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "value": "Cairo",
+      "synonyms": [
+        "Cairo"
+      ]
+    },
+    {
+      "value": "Cape Town",
+      "synonyms": [
+        "Cape Town"
+      ]
+    },
+    {
+      "value": "Johannesburg",
+      "synonyms": [
+        "Johannesburg",
+        "Joburg"
+      ]
+    },
+    {
+      "value": "Casablanca",
+      "synonyms": [
+        "Casablanca"
+      ]
+    },
+    {
+      "value": "Marrakesh",
+      "synonyms": [
+        "Marrakesh",
+        "Marrakech"
+      ]
+    },
+    {
+      "value": "Nairobi",
+      "synonyms": [
+        "Nairobi"
+      ]
+    },
+    {
+      "value": "Zanzibar",
+      "synonyms": [
+        "Zanzibar"
+      ]
+    },
+    {
+      "value": "Lagos",
+      "synonyms": [
+        "Lagos"
+      ]
+    },
+    {
+      "value": "Buenos Aires",
+      "synonyms": [
+        "Buenos Aires"
+      ]
+    },
+    {
+      "value": "Rio de Janeiro",
+      "synonyms": [
+        "Rio de Janeiro",
+        "Rio"
+      ]
+    },
+    {
+      "value": "Sao Paulo",
+      "synonyms": [
+        "Sao Paulo"
+      ]
+    },
+    {
+      "value": "Lima",
+      "synonyms": [
+        "Lima"
+      ]
+    },
+    {
+      "value": "Cusco",
+      "synonyms": [
+        "Cusco",
+        "Cuzco"
+      ]
+    },
+    {
+      "value": "Mexico City",
+      "synonyms": [
+        "Mexico City"
+      ]
+    },
+    {
+      "value": "Cancun",
+      "synonyms": [
+        "Cancun"
+      ]
+    },
+    {
+      "value": "Havana",
+      "synonyms": [
+        "Havana"
+      ]
+    },
+    {
+      "value": "Toronto",
+      "synonyms": [
+        "Toronto"
+      ]
+    },
+    {
+      "value": "Vancouver",
+      "synonyms": [
+        "Vancouver"
+      ]
+    },
+    {
+      "value": "Montreal",
+      "synonyms": [
+        "Montreal"
+      ]
+    },
+    {
+      "value": "Quebec City",
+      "synonyms": [
+        "Quebec City"
+      ]
+    },
+    {
+      "value": "Chicago",
+      "synonyms": [
+        "Chicago"
+      ]
+    },
+    {
+      "value": "Miami",
+      "synonyms": [
+        "Miami"
+      ]
+    },
+    {
+      "value": "Washington D.C.",
+      "synonyms": [
+        "Washington D.C.",
+        "DC"
+      ]
+    },
+    {
+      "value": "Boston",
+      "synonyms": [
+        "Boston"
+      ]
+    },
+    {
+      "value": "Seattle",
+      "synonyms": [
+        "Seattle"
+      ]
+    },
+    {
+      "value": "Honolulu",
+      "synonyms": [
+        "Honolulu",
+        "Hawaii"
+      ]
+    },
+    {
+      "value": "San Diego",
+      "synonyms": [
+        "San Diego"
+      ]
+    },
+    {
+      "value": "Orlando",
+      "synonyms": [
+        "Orlando"
+      ]
+    },
+    {
+      "value": "Athens",
+      "synonyms": [
+        "Athens"
+      ]
+    },
+    {
+      "value": "Santorini",
+      "synonyms": [
+        "Santorini"
+      ]
+    },
+    {
+      "value": "Mykonos",
+      "synonyms": [
+        "Mykonos"
+      ]
+    },
+    {
+      "value": "Prague",
+      "synonyms": [
+        "Prague"
+      ]
+    },
+    {
+      "value": "Budapest",
+      "synonyms": [
+        "Budapest"
+      ]
+    },
+    {
+      "value": "Vienna",
+      "synonyms": [
+        "Vienna"
+      ]
+    },
+    {
+      "value": "Zurich",
+      "synonyms": [
+        "Zurich"
+      ]
+    },
+    {
+      "value": "Geneva",
+      "synonyms": [
+        "Geneva"
+      ]
+    },
+    {
+      "value": "Lucerne",
+      "synonyms": [
+        "Lucerne"
+      ]
+    },
+    {
+      "value": "Munich",
+      "synonyms": [
+        "Munich"
+      ]
+    },
+    {
+      "value": "Berlin",
+      "synonyms": [
+        "Berlin"
+      ]
+    },
+    {
+      "value": "Frankfurt",
+      "synonyms": [
+        "Frankfurt"
+      ]
+    },
+    {
+      "value": "Hamburg",
+      "synonyms": [
+        "Hamburg"
+      ]
+    },
+    {
+      "value": "Oslo",
+      "synonyms": [
+        "Oslo"
+      ]
+    },
+    {
+      "value": "Stockholm",
+      "synonyms": [
+        "Stockholm"
+      ]
+    },
+    {
+      "value": "Copenhagen",
+      "synonyms": [
+        "Copenhagen"
+      ]
+    },
+    {
+      "value": "Helsinki",
+      "synonyms": [
+        "Helsinki"
+      ]
+    },
+    {
+      "value": "Reykjavik",
+      "synonyms": [
+        "Reykjavik"
+      ]
+    },
+    {
+      "value": "Lisbon",
+      "synonyms": [
+        "Lisbon"
+      ]
+    },
+    {
+      "value": "Porto",
+      "synonyms": [
+        "Porto"
+      ]
+    },
+    {
+      "value": "Madrid",
+      "synonyms": [
+        "Madrid"
+      ]
+    },
+    {
+      "value": "Seville",
+      "synonyms": [
+        "Seville"
+      ]
+    },
+    {
+      "value": "Granada",
+      "synonyms": [
+        "Granada"
+      ]
+    },
+    {
+      "value": "Valencia",
+      "synonyms": [
+        "Valencia"
+      ]
+    },
+    {
+      "value": "Warsaw",
+      "synonyms": [
+        "Warsaw"
+      ]
+    },
+    {
+      "value": "Krakow",
+      "synonyms": [
+        "Krakow"
+      ]
+    },
+    {
+      "value": "Brussels",
+      "synonyms": [
+        "Brussels"
+      ]
+    },
+    {
+      "value": "Bruges",
+      "synonyms": [
+        "Bruges"
+      ]
+    },
+    {
+      "value": "Edinburgh",
+      "synonyms": [
+        "Edinburgh"
+      ]
+    },
+    {
+      "value": "Glasgow",
+      "synonyms": [
+        "Glasgow"
+      ]
+    },
+    {
+      "value": "Manchester",
+      "synonyms": [
+        "Manchester"
+      ]
+    },
+    {
+      "value": "Liverpool",
+      "synonyms": [
+        "Liverpool"
+      ]
+    },
+    {
+      "value": "Dublin",
+      "synonyms": [
+        "Dublin"
+      ]
+    },
+    {
+      "value": "Belfast",
+      "synonyms": [
+        "Belfast"
+      ]
+    },
+    {
+      "value": "Moscow",
+      "synonyms": [
+        "Moscow"
+      ]
+    },
+    {
+      "value": "St. Petersburg",
+      "synonyms": [
+        "St. Petersburg"
+      ]
+    },
+    {
+      "value": "Kyiv",
+      "synonyms": [
+        "Kyiv",
+        "Kiev"
+      ]
+    },
+    {
+      "value": "Warsaw",
+      "synonyms": [
+        "Warsaw"
+      ]
+    },
+    {
+      "value": "Beijing",
+      "synonyms": [
+        "Beijing",
+        "Peking"
+      ]
+    },
+    {
+      "value": "Shanghai",
+      "synonyms": [
+        "Shanghai"
+      ]
+    },
+    {
+      "value": "Guangzhou",
+      "synonyms": [
+        "Guangzhou"
+      ]
+    },
+    {
+      "value": "Shenzhen",
+      "synonyms": [
+        "Shenzhen"
+      ]
+    },
+    {
+      "value": "Chengdu",
+      "synonyms": [
+        "Chengdu"
+      ]
+    },
+    {
+      "value": "Taipei",
+      "synonyms": [
+        "Taipei"
+      ]
+    },
+    {
+      "value": "Hanoi",
+      "synonyms": [
+        "Hanoi"
+      ]
+    },
+    {
+      "value": "Ho Chi Minh City",
+      "synonyms": [
+        "Ho Chi Minh City",
+        "Saigon"
+      ]
+    },
+    {
+      "value": "Jakarta",
+      "synonyms": [
+        "Jakarta"
+      ]
+    },
+    {
+      "value": "Yogyakarta",
+      "synonyms": [
+        "Yogyakarta"
+      ]
+    },
+    {
+      "value": "Manila",
+      "synonyms": [
+        "Manila"
+      ]
+    },
+    {
+      "value": "Auckland",
+      "synonyms": [
+        "Auckland"
+      ]
+    },
+    {
+      "value": "Wellington",
+      "synonyms": [
+        "Wellington"
+      ]
+    },
+    {
+      "value": "Christchurch",
+      "synonyms": [
+        "Christchurch"
+      ]
+    },
+    {
+      "value": "Brisbane",
+      "synonyms": [
+        "Brisbane"
+      ]
+    },
+    {
+      "value": "Melbourne",
+      "synonyms": [
+        "Melbourne"
+      ]
+    },
+    {
+      "value": "Perth",
+      "synonyms": [
+        "Perth"
+      ]
+    },
+    {
+      "value": "Adelaide",
+      "synonyms": [
+        "Adelaide"
+      ]
+    },
+    {
+      "value": "Cairns",
+      "synonyms": [
+        "Cairns"
+      ]
+    },
+    {
+      "value": "Hobart",
+      "synonyms": [
+        "Hobart"
+      ]
+    },
+    {
+      "value": "Auckland",
+      "synonyms": [
+        "Auckland"
+      ]
+    },
+    {
+      "value": "Suva",
+      "synonyms": [
+        "Suva"
+      ]
+    },
+    {
+      "value": "Christchurch",
+      "synonyms": [
+        "Christchurch"
+      ]
+    },
+    {
+      "value": "Srinagar",
+      "synonyms": [
+        "Srinagar"
+      ]
+    },
+    {
+      "value": "Gulmarg",
+      "synonyms": [
+        "Gulmarg"
+      ]
+    },
+    {
+      "value": "Pahalgam",
+      "synonyms": [
+        "Pahalgam"
+      ]
+    },
+    {
+      "value": "Sonmarg",
+      "synonyms": [
+        "Sonmarg"
+      ]
+    },
+    {
+      "value": "Shimla",
+      "synonyms": [
+        "Shimla"
+      ]
+    },
+    {
+      "value": "Manali",
+      "synonyms": [
+        "Manali"
+      ]
+    },
+    {
+      "value": "Dharamshala",
+      "synonyms": [
+        "Dharamshala"
+      ]
+    },
+    {
+      "value": "Dalhousie",
+      "synonyms": [
+        "Dalhousie"
+      ]
+    },
+    {
+      "value": "Kochi",
+      "synonyms": [
+        "Kochi",
+        "Cochin"
+      ]
+    },
+    {
+      "value": "Munnar",
+      "synonyms": [
+        "Munnar"
+      ]
+    },
+    {
+      "value": "Alleppey",
+      "synonyms": [
+        "Alleppey",
+        "Alappuzha"
+      ]
+    },
+    {
+      "value": "Thekkady",
+      "synonyms": [
+        "Thekkady"
+      ]
+    },
+    {
+      "value": "Kovalam",
+      "synonyms": [
+        "Kovalam"
+      ]
+    },
+    {
+      "value": "Wayanad",
+      "synonyms": [
+        "Wayanad"
+      ]
+    },
+    {
+      "value": "Trivandrum",
+      "synonyms": [
+        "Trivandrum",
+        "Thiruvananthapuram"
+      ]
+    },
+    {
+      "value": "Gangtok",
+      "synonyms": [
+        "Gangtok"
+      ]
+    },
+    {
+      "value": "Pelling",
+      "synonyms": [
+        "Pelling"
+      ]
+    },
+    {
+      "value": "Lachung",
+      "synonyms": [
+        "Lachung"
+      ]
+    },
+    {
+      "value": "Lachen",
+      "synonyms": [
+        "Lachen"
+      ]
+    },
+    {
+      "value": "Tsomgo Lake",
+      "synonyms": [
+        "Tsomgo Lake",
+        "Changu Lake"
+      ]
+    },
+    {
+      "value": "Darjeeling",
+      "synonyms": [
+        "Darjeeling"
+      ]
+    },
+    {
+      "value": "Shillong",
+      "synonyms": [
+        "Shillong"
+      ]
+    },
+    {
+      "value": "Kaziranga",
+      "synonyms": [
+        "Kaziranga National Park"
+      ]
+    },
+    {
+      "value": "Tawang",
+      "synonyms": [
+        "Tawang"
+      ]
+    },
+    {
+      "value": "Rishikesh",
+      "synonyms": [
+        "Rishikesh"
+      ]
+    },
+    {
+      "value": "Varanasi",
+      "synonyms": [
+        "Varanasi",
+        "Banaras",
+        "Kashi"
+      ]
+    },
+    {
+      "value": "Amritsar",
+      "synonyms": [
+        "Amritsar"
+      ]
+    },
+    {
+      "value": "Udaipur",
+      "synonyms": [
+        "Udaipur"
+      ]
+    },
+    {
+      "value": "Rann of Kutch",
+      "synonyms": [
+        "Rann of Kutch",
+        "Kutch"
+      ]
+    },
+    {
+      "value": "Andaman Islands",
+      "synonyms": [
+        "Andaman",
+        "Port Blair"
+      ]
+    },
+    {
+      "value": "Lakshadweep",
+      "synonyms": [
+        "Lakshadweep"
+      ]
+    },
+    {
+      "value": "Leh",
+      "synonyms": [
+        "Leh"
+      ]
+    },
+    {
+      "value": "Ladakh",
+      "synonyms": [
+        "Ladakh"
+      ]
+    },
+    {
+      "value": "Thimphu",
+      "synonyms": [
+        "Thimphu"
+      ]
+    },
+    {
+      "value": "Paro",
+      "synonyms": [
+        "Paro"
+      ]
+    },
+    {
+      "value": "Punakha",
+      "synonyms": [
+        "Punakha"
+      ]
+    },
+    {
+      "value": "Phobjikha Valley",
+      "synonyms": [
+        "Phobjikha Valley"
+      ]
+    },
+    {
+      "value": "MSC Cruise from Dubai",
+      "synonyms": [
+        "MSC Cruise Dubai",
+        "MSC Dubai Cruise"
+      ]
+    },
+    {
+      "value": "Costa Cruise from Dubai",
+      "synonyms": [
+        "Costa Cruise Dubai"
+      ]
+    },
+    {
+      "value": "AIDA Cruise from Dubai",
+      "synonyms": [
+        "AIDA Cruise Dubai"
+      ]
+    },
+    {
+      "value": "Genting Dream Cruise from Singapore",
+      "synonyms": [
+        "Genting Cruise Singapore",
+        "Genting Dream Cruise"
+      ]
+    },
+    {
+      "value": "Royal Caribbean Cruise from Singapore",
+      "synonyms": [
+        "Royal Caribbean Singapore",
+        "Royal Caribbean Cruise"
+      ]
+    },
+    {
+      "value": "Resorts World Cruise from Singapore",
+      "synonyms": [
+        "Resorts World Cruise Singapore"
+      ]
+    },
+    {
+      "value": "MSC Cruise from Europe",
+      "synonyms": [
+        "MSC Europe Cruise"
+      ]
+    },
+    {
+      "value": "Costa Cruise from Europe",
+      "synonyms": [
+        "Costa Europe Cruise"
+      ]
+    },
+    {
+      "value": "Norwegian Cruise Line from Europe",
+      "synonyms": [
+        "Norwegian Europe Cruise"
+      ]
+    },
+    {
+      "value": "Celebrity Cruise from Europe",
+      "synonyms": [
+        "Celebrity Europe Cruise"
+      ]
+    },
+    {
+      "value": "Royal Caribbean Cruise from Europe",
+      "synonyms": [
+        "Royal Caribbean Europe Cruise"
+      ]
+    },
+    {
+      "value": "Viking Ocean Cruise from Europe",
+      "synonyms": [
+        "Viking Europe Cruise"
+      ]
+    },
+    {
+      "value": "Machu Picchu",
+      "synonyms": [
+        "Machu Picchu"
+      ]
+    },
+    {
+      "value": "Petra",
+      "synonyms": [
+        "Petra",
+        "Petra Jordan"
+      ]
+    },
+    {
+      "value": "Banff",
+      "synonyms": [
+        "Banff"
+      ]
+    },
+    {
+      "value": "Amalfi Coast",
+      "synonyms": [
+        "Amalfi Coast"
+      ]
+    },
+    {
+      "value": "Cinque Terre",
+      "synonyms": [
+        "Cinque Terre"
+      ]
+    },
+    {
+      "value": "Dubrovnik",
+      "synonyms": [
+        "Dubrovnik"
+      ]
+    },
+    {
+      "value": "Bora Bora",
+      "synonyms": [
+        "Bora Bora"
+      ]
+    },
+    {
+      "value": "Seychelles",
+      "synonyms": [
+        "Seychelles"
+      ]
+    },
+    {
+      "value": "Mauritius",
+      "synonyms": [
+        "Mauritius"
+      ]
+    }
+  ]
+}

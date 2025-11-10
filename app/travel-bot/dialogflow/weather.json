@@ -1,0 +1,55 @@
+{
+  "name": "Weather Info - Generic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "☀️ Lovely question! Weather changes all the time, but our team will help you with the latest update for that city soon 🌦️✨",
+            "🌍 You’ve got travel vibes! Our travel experts will share the current weather details for that destination shortly 🌤️💬",
+            "🌈 Rain, shine, or sparkle — we’ve got you covered! Someone from our team will share the latest weather update soon 💨💫",
+            "☁️ Curious about the weather? Our travel team will check the current forecast and get back to you in a bit 😄☀️",
+            "🌴 Good question! Weather keeps changing, but our team will give you the freshest update shortly 💬✨",
+            "🧳 You’re planning smart! Our team will let you know the current weather conditions at your destination real soon 🌞🌧️",
+            "☁️ That’s a good one! Our travel expert will fetch the latest weather update for you shortly 💬💙",
+            "🌤️ Nice! The weather’s a mood-setter, isn’t it? Our team will share the current details with you soon 💫☀️",
+            "🌈 Checking skies for you! Our team will confirm the latest weather for your destination shortly 💬✈️",
+            "🌦️ Weather forecasts can be tricky, but don’t worry — our travel crew will send you the latest info soon 💖💨"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "events": [],
+  "userSays": [
+    { "data": [{ "text": "What’s the weather like in [city]?" }] },
+    { "data": [{ "text": "How’s the weather there right now?" }] },
+    { "data": [{ "text": "Is it raining in [city]?" }] },
+    { "data": [{ "text": "What’s the temperature in [city]?" }] },
+    { "data": [{ "text": "Is it cold in [city] right now?" }] },
+    { "data": [{ "text": "Is [city] hot or cold these days?" }] },
+    { "data": [{ "text": "Should I carry warm clothes to [destination]?" }] },
+    { "data": [{ "text": "What’s the climate like in [destination]?" }] },
+    { "data": [{ "text": "Is it a good time to visit [city]?" }] },
+    { "data": [{ "text": "How’s the weather this week in [city]?" }] },
+    { "data": [{ "text": "Is it snowing there?" }] },
+    { "data": [{ "text": "Will it rain tomorrow in [city]?" }] },
+    { "data": [{ "text": "What’s the best time to travel to [destination]?" }] }
+  ],
+  "fallbackIntent": false,
+  "webhookForSlotFilling": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "active": true
+}
