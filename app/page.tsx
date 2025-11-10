@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 
 export default function Home() {
   const [open, setOpen] = useState(false);
@@ -25,16 +24,6 @@ export default function Home() {
 
   return (
     <div className="text-center">
-      
-      {/* ✅ Added Image */}
-      <Image
-        src="/heo.png"
-        alt="Homepage Image"
-        width={400}     // change size as needed
-        height={400}
-        className="mx-auto mb-6"
-      />
-
       <h2 className="text-4xl md:text-5xl font-bold mb-4">Welcome to Botshyka</h2>
       <p className="text-lg md:text-xl mb-6">A Smart Chatbot Showcase Platform.</p>
 
@@ -75,3 +64,4 @@ export default function Home() {
     </div>
   );
 }
+
